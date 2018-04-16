@@ -1,0 +1,13 @@
+[package]
+name = "haskell_parsers"
+version = "0.1.0"
+authors = ["Matt Parsons <parsonsmatt@gmail.com>"]
+
+[dependencies]
+combine = "3.1.*"
+nom = "3.2.1"
+
+[[test]]
+name = "haskell-parsers-test"
+harness = false
+path = "tests/main.rs"
