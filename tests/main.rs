@@ -13,6 +13,8 @@ pub fn main() {
     println!("{:?}", result);
     let result = hpnom::module(b"module Blah where");
     println!("{:?}", result);
+    let result = hpnom::module(b"module Blah.Woo where");
+    println!("{:?}", result);
     let result = hpnom::module_name(b"Blah.Woo");
     println!("{:?}", result);
 }
